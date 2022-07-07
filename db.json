@@ -11,8 +11,8 @@
             "id": 1,
             "name": "Sandwich de jamón y queso",
             "price": 1000,
-            "image": "https://github.com/Laboratoria/bootcamp/tree/main/projects/04-burger-queen-api/resources/images/sandwich.jpg",
-            "type": "Desayuno",
+            "image": "https://i.imgur.com/cB7Rviv.gif",
+            "type": "desayuno",
             "dateEntry": "2022-03-05 15:14:10"
           }
         },
@@ -22,8 +22,8 @@
             "id": 2,
             "name": "Café americano",
             "price": 500,
-            "image": "https://github.com/Laboratoria/bootcamp/tree/main/projects/04-burger-queen-api/resources/images/coffe.jpg",
-            "type": "Desayuno",
+            "image": "https://i.imgur.com/B68MhUu.gif",
+            "type": "desayuno",
             "dateEntry": "2022-03-05 15:14:10"
           }
         }
@@ -41,9 +41,9 @@
           "product": {
             "id": 2,
             "name": "Café americano",
-            "price": 500,
-            "image": "https://github.com/Laboratoria/bootcamp/tree/main/projects/04-burger-queen-api/resources/images/coffe.jpg",
-            "type": "Desayuno",
+            "price": 5,
+            "image": "https://i.imgur.com/B68MhUu.gif",
+            "type": "desayuno",
             "dateEntry": "2022-03-05 15:14:10"
           }
         },
@@ -52,9 +52,9 @@
           "product": {
             "id": 3,
             "name": "Agua 500ml",
-            "price": 500,
-            "image": "https://github.com/Laboratoria/bootcamp/tree/main/projects/04-burger-queen-api/resources/images/water.jpg",
-            "type": "Almuerzo",
+            "price": 2,
+            "image": "https://i.blogs.es/f1e62f/botella-agua/450_1000.webp",
+            "type": "almuerzo",
             "dateEntry": "2022-03-05 15:14:10"
           }
         }
@@ -68,44 +68,162 @@
     {
       "id": 1,
       "name": "Sandwich de jamón y queso",
-      "price": 1000,
-      "image": "https://raw.githubusercontent.com/ssinuco/burger-queen-api-mock/main/resources/images/sandwich.png",
-      "type": "Desayuno",
+      "price": 1,
+      "image": "https://i.imgur.com/cB7Rviv.gif",
+      "type": "desayuno",
       "dateEntry": "2022-03-05 15:14:10"
     },
     {
       "id": 2,
       "name": "Café americano",
-      "price": 500,
-      "image": "https://raw.githubusercontent.com/ssinuco/burger-queen-api-mock/main/resources/images/coffee.png",
-      "type": "Desayuno",
+      "price": 1,
+      "image": "https://i.imgur.com/B68MhUu.gif",
+      "type": "desayuno",
       "dateEntry": "2022-03-05 15:14:10"
+    },
+    {
+      "id": 4,
+      "name": "café con leche",
+      "type": "desayuno",
+      "cost": "$ 2",
+      "price": 2,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTF8iQ-_GicLjrSvySczXUGSxa1IPp5515RHQ&usqp=CAU"
     },
     {
       "id": 3,
       "name": "Agua 500ml",
-      "price": 500,
-      "image": "https://raw.githubusercontent.com/ssinuco/burger-queen-api-mock/main/resources/images/water.png",
-      "type": "Almuerzo",
+      "price": 2,
+      "image": "https://i.blogs.es/f1e62f/botella-agua/450_1000.webp",
+      "type": "almuerzo",
       "dateEntry": "2022-03-05 15:14:10"
+    },
+    {
+      "id": 5,
+      "name": "jugos naturales",
+      "type": "desayuno",
+      "cost": "$ 1",
+      "price": 1,
+      "image": "https://i.imgur.com/HV4xMOP.jpeg"
+    },
+    {
+      "id": 15,
+      "name": "bolón mixto con huevo",
+      "type": "desayuno",
+      "cost": "$ 3",
+      "price": 3,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBWcNVgB_teThKtSOagu97JucD9WDF7RjRDw&usqp=CAU"
+    },
+    {
+      "id": 6,
+      "name": "Encebollado",
+      "type": "almuerzo",
+      "cost": "$ 3",
+      "price": 3,
+      "image": "https://i.imgur.com/sA5yBbT.jpeg"
+    },
+    {
+      "id": 7,
+      "name": "Seco de pollo",
+      "type": "almuerzo",
+      "cost": "$ 2",
+      "price": 2,
+      "image": "https://i.imgur.com/TGsinX7.png"
+    },
+    {
+      "id": 8,
+      "name": "Llapingacho",
+      "type": "almuerzo",
+      "cost": "$ 3",
+      "price": 3,
+      "image": "https://i.imgur.com/FjTAgcX.jpeg"
+    },
+    {
+      "id": 9,
+      "name": "Hornado",
+      "type": "almuerzo",
+      "cost": "$ 3",
+      "price": 3,
+      "image": "https://i.imgur.com/tFfDHXp.jpeg"
+    },
+    {
+      "id": 10,
+      "name": "Fritada",
+      "type": "almuerzo",
+      "cost": "$ 3",
+      "price": 3,
+      "image": "https://i.imgur.com/M5AfmT1.jpeg"
+    },
+    {
+      "id": 11,
+      "name": "chifle",
+      "type": "acompañamiento",
+      "cost": "$ 1",
+      "price": 1,
+      "image": "https://i.imgur.com/DkFMiTV.png"
+    },
+    {
+      "id": 12,
+      "name": "pan",
+      "type": "acompañamiento",
+      "cost": "$ 1",
+      "price": 1,
+      "image": "https://i.imgur.com/LvKZxR9.jpeg"
+    },
+    {
+      "id": 13,
+      "name": "arroz",
+      "type": "acompañamiento",
+      "cost": "$ 1",
+      "price": 1,
+      "image": "https://i.imgur.com/SwrGLsb.jpeg"
+    },
+    {
+      "id": 14,
+      "name": "gaseosas",
+      "type": "bebidas",
+      "cost": "$ 2",
+      "price": 2,
+      "image": "https://i.imgur.com/RUBhPnI.jpeg"
+    },
+    {
+      "name": "Waffle",
+      "price": "2",
+      "type": "desayuno",
+      "id": 16,
+      "image": "https://i.imgur.com/2wXmi32.gif"
     }
+   
   ],
   "users": [
     {
       "email": "anita.borg@systers.xyz",
       "password": "$2a$10$gVkmcWdnwEBxXj2PWjuv9uDx7BfjiAobbabDAOrH2o8b1i3E7KwR.",
-      "roles": {
-        "admin": true
-      },
+      "roles": "waiter",
       "id": 1
     },
     {
       "email": "grace.hopper@systers.xyz",
       "password": "$2a$10$JABwR1UAtJqr2DCJ41ypMOgOqlh8eRXmTBO6DXfKG3ybxhABY4rey",
-      "roles": {
-        "admin": true
-      },
+      "roles": "admin",
       "id": 2
+    },
+    {
+      "email": "grace.hoccer@systers.xyz",
+      "password": "$2a$10$7WoGsrE1erxHHpdIGyZ4rOY0SCf4YcDZWffp8gFOUW9craGDRwwk.",
+      "roles": "chef",
+      "id": 3
+    },
+    {
+      "email": "made.tata@systers.xyz",
+      "password": "$2a$10$LUhwxLxyktMDPjh2qTdJjuthA06gyEaS30nsf3lFBGqijGSe5g8Z.",
+      "roles": "chef",
+      "id": 4
+    },
+    {
+      "email": "prueb.post@systers.xyz",
+      "password": "$2a$10$zer8H0AIRA4jsCSqJOAorennwwg0RH7ZXocqIMUiCwhML6G4G8XCC",
+      "roles": "waiter",
+      "id": 5
     }
   ]
 }
